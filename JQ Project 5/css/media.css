@@ -1,0 +1,274 @@
+@media(max-width:720px)
+{
+    .parent{
+        width: 100%;
+        display: flex;
+        /* align-items: flex-start; */
+        /* justify-content: space-between; */
+    }
+    header{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        height: 100px;
+        width: 100%;
+        /* height:auto; */
+        font-size: 35px;
+    }
+    nav{
+   
+        width: 50%;
+        height: 100%;
+        display: none;
+        border: none;
+    }
+    nav ul{
+        width: 100%;
+        /* height:inherit; */
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-bars{
+    display:block;
+    position: absolute;
+    right: 75px;
+    top: 500px;
+    }
+    .butnQ{
+        display: none;
+    }
+    .subparent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .subchild,.subchild2{
+        width: 100%;
+    }
+    .sec2{
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    .sec2textbox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgbox{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .childimg{
+        width: 100%;
+        height: auto;
+    }
+     .childimg2,.childimg3,.childimg4,.childimg5,.childimg6{
+            display: none;
+    }
+    .sec3{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3textbox{
+        width: 100%;
+    }
+    .subsec5
+    {
+        
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+    }
+    #b1{
+        width: 15%;
+        height: 20%;
+    }
+    .sec4{
+        display: none;
+    }    
+    .sec5{
+        width: 100%;
+        height: auto;
+    }
+    .sec5textbox{
+        width: 100%;
+        height: auto;
+    }
+    .parts{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subparts{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+
+    }
+    .subfooter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .subfooterchild{
+        width: 100%;
+    }
+}
+@media(max-width:480px)
+{
+    .parent{
+        width: 100%;
+        display: flex;
+        /* align-items: flex-start; */
+        /* justify-content: space-between; */
+    }
+    header{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        height: 100px;
+        width: 100%;
+        /* height:auto; */
+        font-size: 35px;
+    }
+    nav{
+   
+        width: 50%;
+        height: 100%;
+        display: none;
+        border: none;
+    }
+    nav ul{
+        width: 100%;
+        /* height:inherit; */
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-bars{
+    display:block;
+    position: absolute;
+    right: 75px;
+    top: 500px;
+    }
+    .butnQ{
+        display: none;
+    }
+    .subparent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .subchild,.subchild2{
+        width: 100%;
+    }
+    .sec2{
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    .sec2textbox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgbox{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .childimg{
+        width: 100%;
+        height: auto;
+    }
+     .childimg2,.childimg3,.childimg4,.childimg5,.childimg6{
+            display: none;
+    }
+    .sec3{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3textbox{
+        width: 100%;
+    }
+    .subsec5
+    {
+        
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+    }
+    #b1{
+        width: 15%;
+        height: 20%;
+    }
+    .sec4{
+        display: none;
+    }    
+    .sec5{
+        width: 100%;
+        height: auto;
+    }
+    .sec5textbox{
+        width: 100%;
+        height: auto;
+    }
+    .parts{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subparts{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+
+    }
+    .subfooter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .subfooterchild{
+        width: 100%;
+    }
+}

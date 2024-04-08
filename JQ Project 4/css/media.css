@@ -1,0 +1,314 @@
+@media(max-width:720px)
+{
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        height: 100px;
+        width: 100%;
+        /* height:auto; */
+        font-size: 35px;
+    }
+    nav{
+   
+        width: 50%;
+        height: 100%;
+        display: none;
+        border: none;
+    }
+    nav ul{
+        width: 100%;
+        /* height:inherit; */
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-bars{
+    display:block;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    }
+    .sec1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subsec1{
+        width: 100%;
+    }
+    .subsec2{
+        display: none;
+    }
+    .sec2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subsec3{
+        width: 100%;
+    }
+    .subsec4
+    {
+        width: 100%;
+    }
+    .sec3{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        margin-top: 300px;
+    }
+    .subsec5{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100%;
+    }
+    .box11{
+        width: 100%;
+        height: auto;
+        display: flex;
+
+    }
+    .box1{
+        display: none;
+    }
+    .sec4{
+        display: none;
+    }
+    .sec5{
+        margin-top: 200px;
+        width: 100%;
+        height: auto;
+    }
+    .textbox{
+        width: 100%;
+        height: auto;
+        line-height: normal;
+    }
+    .textbox h1{
+        display: none;
+    }
+    .textbox p{
+        font-size: 15px;
+    }
+    .sec6{
+        width: 100%;
+        height: auto;
+    }
+    .subparent{
+        margin-top: 700px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .subchild{
+        width: 80%;
+        height: auto;
+    }
+    .im1{
+        width: 100%;
+        height:auto;
+    }
+    .tet1{
+        display: none;
+    }
+    #imm1{
+        width: 100%;
+        height: 100%;
+    }
+    #i2{
+        display: none;
+    }
+    .text7{
+        display: none;
+    }
+    .subsec7{
+        margin-top: 250%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .box7{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        margin-top: 350%;
+        height: auto;
+    }
+    .subfooter{
+        margin-top: 20%;
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:auto;
+    }
+}
+
+/*  */
+@media(max-width:480px)
+{
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        height: 100px;
+        width: 100%;
+        /* height:auto; */
+        font-size: 35px;
+    }
+    nav{
+   
+        width: 50%;
+        height: 100%;
+        display: none;
+        border: none;
+    }
+    nav ul{
+        width: 100%;
+        /* height:inherit; */
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-bars{
+    display:block;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    }
+    .sec1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subsec1{
+        width: 100%;
+    }
+    .subsec2{
+        display: none;
+    }
+    .sec2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subsec3{
+        width: 100%;
+    }
+    .subsec4
+    {
+        width: 100%;
+    }
+    .sec3{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        margin-top: 300px;
+    }
+    .subsec5{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100%;
+    }
+    .box11{
+        width: 100%;
+        height: auto;
+        display: flex;
+
+    }
+    .box1{
+        display: none;
+    }
+    .sec4{
+        display: none;
+    }
+    .sec5{
+        margin-top: 200px;
+        width: 100%;
+        height: auto;
+    }
+    .textbox{
+        width: 100%;
+        height: auto;
+        line-height: normal;
+    }
+    .textbox h1{
+        display: none;
+    }
+    .textbox p{
+        font-size: 15px;
+    }
+    .sec6{
+        width: 100%;
+        height: auto;
+    }
+    .subparent{
+        margin-top: 700px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .subchild{
+        width: 80%;
+        height: auto;
+    }
+    .im1{
+        width: 100%;
+        height:auto;
+    }
+    .tet1{
+        display: none;
+    }
+    #imm1{
+        width: 100%;
+        height: 100%;
+    }
+    #i2{
+        display: none;
+    }
+    .text7{
+        display: none;
+    }
+    .subsec7{
+        margin-top: 250%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .box7{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        margin-top: 350%;
+        height: auto;
+    }
+    .subfooter{
+        margin-top: 20%;
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:auto;
+    }
+}

@@ -1,0 +1,346 @@
+@media(max-width:720px)
+{
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+    }
+    .logo{
+        width: 100%;
+        height:auto;
+        font-size: 25px;
+    }
+    .logo h1{
+        width: 100%;
+    }
+    nav{
+   
+        width: 100%;
+        height: 100%;
+        display: none;
+        border: none;
+        background-color: transparent;
+    }
+    nav ul{
+        width: 100%;
+        /* height:inherit; */
+        display: flex;
+        flex-direction: column;
+    }
+    #bars{
+    display:block;
+    position: absolute;
+    left: 90%;
+    /* right: 10%; */
+    /* top: 10px; */
+}
+    .icon{
+    display: none;
+    }
+    #h5{
+        font-size: 30px;
+    } 
+    #h1{
+        font-size: 35px;
+    }
+    .swiper-wrapper{
+        width: 100%;
+        height: auto;
+    }
+    .extra{
+        width: 100%;
+        height: auto;
+    }
+    .subextra{
+        width: 100%;
+        height:100px;
+    }
+    .subextra h3{
+        font-size: 20px;
+    }
+    .subextra h4{
+        font-size: 15px;
+    }
+    .sec2{
+        width: 100%;
+        height: auto;
+    }
+    .parent1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .child1,.child101,.child2{
+        width: 100%;
+        height: auto;
+    }
+    #hh,#year{
+        display: none;
+    }
+    .seccont{
+        width: 100%;
+        height: auto;
+    }
+    .parentcont{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .sec4{
+        width: 100%;
+        height: auto;
+    }
+    .subbox{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subbox .hh{
+        display: none;
+    }
+    .subbox h2{
+        display: none;
+    }
+    .box,.box2,.box3{
+        width:100%;
+        height: auto;
+    }
+    .menu{
+        width: 100%;
+        height: auto;
+    }
+    .menutext{
+        display: none;
+    }
+    .menuphoto{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .menuparts{
+        width: 100%;
+        height: auto;
+    }
+    .menuparts button{
+        margin: auto;
+    }
+    .sec6{
+        width: 100%;
+        height: auto;
+    }
+    .sec6 h2,p{
+        display: none;
+    }
+    .subparent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subchild{
+        width: 100%;
+        height: auto;
+    }
+    .sec5{
+        width: 100%;
+        height: auto;
+    }
+    #founder{
+        width:20%;
+        height: 20%;
+        
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .child0,.child11,.child12,.child33{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width:480px)
+{
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+    }
+    .logo{
+        width: 100%;
+        height:auto;
+        font-size: 25px;
+    }
+    .logo h1{
+        width: 100%;
+    }
+    nav{
+   
+        width: 100%;
+        height: 100%;
+        display: none;
+        border: none;
+        background-color: transparent;
+    }
+    nav ul{
+        width: 100%;
+        /* height:inherit; */
+        display: flex;
+        flex-direction: column;
+    }
+    #bars{
+    display:block;
+    position: absolute;
+    left: 90%;
+    /* right: 10%; */
+    /* top: 10px; */
+}
+    .icon{
+    display: none;
+    }
+    #h5{
+        font-size: 30px;
+    } 
+    #h1{
+        font-size: 35px;
+    }
+    .swiper-wrapper{
+        width: 100%;
+        height: auto;
+    }
+    .extra{
+        width: 100%;
+        height: auto;
+    }
+    .subextra{
+        width: 100%;
+        height:100px;
+    }
+    .subextra h3{
+        font-size: 20px;
+    }
+    .subextra h4{
+        font-size: 15px;
+    }
+    .sec2{
+        width: 100%;
+        height: auto;
+    }
+    .parent1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .child1,.child101,.child2{
+        width: 100%;
+        height: auto;
+    }
+    #hh,#year{
+        display: none;
+    }
+    .seccont{
+        width: 100%;
+        height: auto;
+    }
+    .parentcont{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .sec4{
+        width: 100%;
+        height: auto;
+    }
+    .subbox{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subbox .hh{
+        display: none;
+    }
+    .subbox h2{
+        display: none;
+    }
+    .box,.box2,.box3{
+        width:100%;
+        height: auto;
+    }
+    .menu{
+        width: 100%;
+        height: auto;
+    }
+    .menutext{
+        display: none;
+    }
+    .menuphoto{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .menuparts{
+        width: 100%;
+        height: auto;
+    }
+    .menuparts button{
+        margin: auto;
+    }
+    .sec6{
+        width: 100%;
+        height: auto;
+    }
+    .sec6 h2,p{
+        display: none;
+    }
+    .subparent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subchild{
+        width: 100%;
+        height: auto;
+    }
+    .sec5{
+        width: 100%;
+        height: auto;
+    }
+    #founder{
+        width:20%;
+        height: 20%;
+        
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .child0,.child11,.child12,.child33{
+        width: 100%;
+        height: auto;
+    }
+}

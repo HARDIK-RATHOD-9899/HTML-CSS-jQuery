@@ -1,0 +1,70 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Counter Up Demo</title>
+  <meta name="description" content="Counter Up - jQuery Plugin Demo">
+  <meta name="author" content="Benjamin Intal">
+  <link rel="author" href="https://plus.google.com/113101541449927918834"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>    
+  <script src="jquery.counterup.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <style>
+
+    span {
+    /* font-family: 'Playfair Display', serif; */
+        font-size: 30px;
+        color: #555;
+         /* margin-bottom: 350px;  */
+        display: inline-block;
+         /* font-weight: 400;  */
+        text-align: center;
+    }
+    .counter{
+        display: inline-block;
+        color: black;
+    }
+    .parentcont{
+        height: 200px;
+        background-color: #fab700;
+        /* background-image: url(hero_1.jpg); */
+        background-attachment: fixed;
+        border: 1px solid;
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+        text-align: center;
+        color: black;
+    }
+ 
+  </style>
+
+</head>
+
+<body>
+
+    <div class="parentcont">
+ 
+        <h1 id="shoot">Projects Completed<br><span class="counter">596</span></h1>
+        <h1 id="shoot">Really Happy Clients<br><span class="counter">552</span></h1>
+        <h1 id="shoot">Total Tasks Completed<br><span class="counter">5962</span></h1>
+        <h1 id="shoot">Cups of Coffee Taken<br><span class="counter">1009</span></h1>
+        <h1 id="shoot">In House Professionals<br><span class="counter">434</span></h1>
+        
+    </div>
+  
+</body>
+<script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
+</html>

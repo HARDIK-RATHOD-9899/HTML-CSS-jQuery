@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(17, 9, 10, 0.5), rgba(17, 9, 10, 0.5)), url(image/hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 7px;
+    font-size: 12px;
+}
+
+.subheader{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav{
+    width: 70%;
+    height: 100px;
+    /* border: 1px solid black; */
+
+}
+
+nav ul{
+    width:100%;
+    height: 100px;
+    /* border: 1px solid rgb(255, 6, 6); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+#bars{
+    display: none;
+}
+
+.call
+{
+    color: white;
+    width: 50%;
+    height: 100px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.call h3{
+    text-decoration: underline;
+}
+.call button{
+    width: 30%;
+    height: 50px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color:transparent;
+}
+.textbox{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50%;
+    height: 380px;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    /* line-height: 40px; */
+}
+.textbox h1{
+    line-height: 65px;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+}
+.textbox button{
+    line-height: 55px;
+    width: 20%;
+    height: 50px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    border: none;
+    background-color: #65c9bb;
+}
+
+.subparent{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subchild{
+    width: 25%;
+    height: 400px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+
+.subchild p{
+    color: #9ca2a7;
+}
+
+.subchild2{
+    width: 25%;
+    height: 600px;
+    /* border: 1px solid; */
+}
+
+#wr1{
+    width: 100%;
+    height: 100%;
+}
+.subchild button{
+    line-height: 55px;
+    width: 20%;
+    height: 50px;
+    border: 1px solid black;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+}
+
+.flexbox{
+    width: 100%;
+    height: 150vh;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90a8af;
+}
+.subtext{
+    position: absolute;
+    top: 195%;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+.part1{
+    width: 40%;
+    height: 100vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+}
+.pimg1{
+    width: 70%;
+    height: 700px;
+    border: 10px solid white;
+}
+#pi1{
+    width: 100%;
+    height: 100%;
+}
+.pimg2{
+    width: 70%;
+    height: 300px;
+    border: 10px solid white;
+}
+.part2{
+    width: 40%;
+    height: 100vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+
+.pimg3{
+    width: 70%;
+    height: 300px;
+    border: 10px solid white;
+}
+
+.pimg4{
+    width: 70%;
+    height: 700px;
+    border: 10px solid white;
+}
+.sec2{
+    width: 100%;
+    height: 850px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subsec1{
+    width: 25%;
+    height: 400px;
+    /* border:1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.subsec2{
+    width: 35%;
+    height: 500px;
+    /* border:1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec2child{
+    width: 50%;
+    height: 250px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#sec2img{
+    width: 25%;
+    height: 35%;
+}
+
+/* Slider */
+.slider {
+    width: 60%;
+    margin: 100px auto;
+    /* border: 1px solid; */
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 60%;
+  margin: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+#w{
+  text-align: center;
+}
+.box{
+  text-align: center;
+}
+.section2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+#boximg1{
+    width: 20%;
+    height: 30%;
+    border-radius: 180px;
+}
+
+.awsome{
+    width: 100%;
+    height: 300px;
+    background-color: #20c997;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.awsome p{
+    line-height: 50px;
+}
+.awsome button{
+    width: 10%;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 45%;
+    background-color: transparent;
+}
+
+
+footer{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color: white;
+}
+
+.subfooter{
+    width: 80%;
+    height: 350px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subfooterchild{
+    width: 15%;
+    height: 300px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.subfooterchild p{
+    color: #797979;
+}
+.subfooterchild p:hover{
+    cursor: pointer;
+    color: #99513a;
+}
+
+.subfooterchild #hh{
+    position: absolute;
+    top: 12%;
+}

@@ -1,0 +1,328 @@
+@media(max-width:720px)
+{
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        width: 100%;
+        /* height:auto; */
+        font-size: 35px;
+    }
+    nav{
+   
+        width: 50%;
+        height: 100%;
+        display: none;
+        border: none;
+    }
+    nav ul{
+        width: 100%;
+        /* height:inherit; */
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-bars{
+    display:block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    }
+    .sec1text{
+        width: 50%;
+        height: auto;
+    }
+    .sec1text h2{
+        display: none;
+    }
+    .sec1text button{
+        width: 50%;
+    }
+    .sec4{
+        width: 100%;
+        height: auto;
+    }
+    .subbox{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subbox p{
+        display: none;
+    }
+    .hh{
+        display: none;
+    }
+    .box,.box2,.box3{
+        width:100%;
+        height:auto;
+    }
+    .sec22{
+        width: 100%;
+        height: auto;
+    }
+    .subsec22{
+        width: 100%;
+        height: auto;
+    }
+    .sec2parent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2childs{
+        width: 100%;
+        height: auto;
+    }
+    .sec6{
+        width: 100%;
+        height: auto;
+    }
+    .sec6 h2{
+        display: none;   
+    }
+    .sec6 p{
+        display: none;
+    }
+    .subparent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subchild{
+        width: 100%;
+        height: auto;
+    }
+    .parentcont{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2texts{
+        width: 100%;
+        height: auto;
+    }
+    .sec2{
+        width: 100%;
+        height: auto;
+    }
+    .subsec2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2child{
+        width: 100%;
+        height: auto;
+    }
+    .textbox{
+        width: 110%;
+        height: auto;
+    }
+    #founder{
+        width: 15%;
+        height: 20%;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        
+    }
+    .fmdiv{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .subdiv{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .subdiv button,input{
+        display: none;
+    }
+    .subdiv p{
+        display: none;
+    }
+    .subdiv h2{
+        display: block;
+    }
+    
+}
+@media(max-width:480px)
+{
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        width: 100%;
+        /* height:auto; */
+        font-size: 35px;
+    }
+    nav{
+   
+        width: 50%;
+        height: 100%;
+        display: none;
+        border: none;
+    }
+    nav ul{
+        width: 100%;
+        /* height:inherit; */
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-bars{
+    display:block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    }
+    .sec1text{
+        width: 50%;
+        height: auto;
+    }
+    .sec1text h2{
+        display: none;
+    }
+    .sec1text button{
+        width: 50%;
+    }
+    .sec4{
+        width: 100%;
+        height: auto;
+    }
+    .subbox{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subbox p{
+        display: none;
+    }
+    .hh{
+        display: none;
+    }
+    .box,.box2,.box3{
+        width:100%;
+        height:auto;
+    }
+    .sec22{
+        width: 100%;
+        height: auto;
+    }
+    .subsec22{
+        width: 100%;
+        height: auto;
+    }
+    .sec2parent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2childs{
+        width: 100%;
+        height: auto;
+    }
+    .sec6{
+        width: 100%;
+        height: auto;
+    }
+    .sec6 h2{
+        display: none;   
+    }
+    .sec6 p{
+        display: none;
+    }
+    .subparent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .subchild{
+        width: 100%;
+        height: auto;
+    }
+    .parentcont{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2texts{
+        width: 100%;
+        height: auto;
+    }
+    .sec2{
+        width: 100%;
+        height: auto;
+    }
+    .subsec2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2child{
+        width: 100%;
+        height: auto;
+    }
+    .textbox{
+        width: 110%;
+        height: auto;
+    }
+    #founder{
+        width: 15%;
+        height: 20%;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        
+    }
+    .fmdiv{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .subdiv{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .subdiv button,input{
+        display: none;
+    }
+    .subdiv p{
+        display: none;
+    }
+    .subdiv h2{
+        display: block;
+    }
+    
+}

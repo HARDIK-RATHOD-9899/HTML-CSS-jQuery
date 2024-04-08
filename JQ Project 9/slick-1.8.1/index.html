@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slick Playground</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Belanosima&family=Cabin&family=DM+Sans:opsz@9..40&family=Josefin+Sans&family=Jost&family=Lato&family=Merriweather&family=Open+Sans&family=Poppins:wght@400;700&family=Raleway:wght@100&family=Rubik&family=Simonetta&family=Tenor+Sans&display=swap"
+    rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Belanosima&family=Cabin&family=DM+Sans:opsz@9..40&family=Josefin+Sans&family=Jost&family=Lato&family=Merriweather&family=Open+Sans&family=Poiret+One&family=Poppins:wght@400;700&family=Raleway:wght@100&family=Rubik&family=Simonetta&family=Tenor+Sans&display=swap"
+    rel="stylesheet">
+    <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      background-color: #f9f9ff;
+      
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+        height: 250px;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: rgb(29, 1, 1);
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+    .textbox{
+      margin: auto;
+      width: 100%;
+      /* background-color: black;    */
+      color: black;
+      text-align: center;
+    }
+    .textbox h1{
+    font-family: 'Poiret One', sans-serif;
+      font-size: 50px;
+      font-weight: normal;
+    }
+    .textbox p{
+    font-family: 'Jost', sans-serif;
+
+    }
+    #founder{
+      width: 8%;
+      height: 80px;
+      margin:  auto;
+
+    }
+  </style>
+  </head>
+  <body>
+
+    <section class="lazy slider" data-sizes="50vw">
+      <div>
+        <div class="textbox">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            repellat ipsa quasi veritatis facilis deserunt ducimus aperiam
+            quisquam, consequatur libero id doloribus quos voluptates
+            consequuntur ratione.</p>
+            <img id="founder" src="testi-1.png" alt="">
+            <p>Graham Cracker</p>
+        </div>
+        
+      </div>
+      <div>
+        <div class="textbox">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            repellat ipsa quasi veritatis facilis deserunt ducimus aperiam
+            quisquam, consequatur libero id doloribus quos voluptates
+            consequuntur ratione.</p>
+            <img id="founder" src="testi-2.png" alt="">
+            <p>Graham Cracker</p>
+        </div>
+      </div>
+      <div>
+        <div class="textbox">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            repellat ipsa quasi veritatis facilis deserunt ducimus aperiam
+            quisquam, consequatur libero id doloribus quos voluptates
+            consequuntur ratione.</p>
+            <img id="founder" src="testi-1.png" alt="">
+            <p>Graham Cracker</p>
+        </div>
+      </div>
+      <div>
+        <div class="textbox">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            repellat ipsa quasi veritatis facilis deserunt ducimus aperiam
+            quisquam, consequatur libero id doloribus quos voluptates
+            consequuntur ratione.</p>
+            <img id="founder" src="testi-2.png" alt="">
+            <p>Graham Cracker</p>
+        </div>
+      </div>
+      <div>
+        <div class="textbox">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            repellat ipsa quasi veritatis facilis deserunt ducimus aperiam
+            quisquam, consequatur libero id doloribus quos voluptates
+            consequuntur ratione.</p>
+            <img id="founder" src="testi-1.png" alt="">
+            <p>Graham Cracker</p>
+        </div>
+      </div>
+  
+    </section>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+
+  </body>
+</html>
